@@ -96,6 +96,7 @@ bool ExpressionEvaluator::postfixEvaluator
 				if (varTable.find(token) == varTable.end())
 						return false; //Invalid name
 				stack.push_back(	varTable[token]	);
+				//cout << token <<" is the token: "<<varTable[token] << endl;
 			}
 		else if (	LexicalScanner::isNUMERICAL_OP(token)  ||  
 					LexicalScanner::isRELATIONAL_OP(token) || 
@@ -198,7 +199,10 @@ bool ExpressionEvaluator::postfixEvaluator
 
 	if (stack.size() == 1)
 	//The evaluated value of the expression should be the only value left on the stack
-		{	expValue = stack.back();
+		{	
+			expValue = stack.back();
+			//cout <<"token expValue:"<<expValue << endl;
+
 			return true;
 		}
 	else

@@ -35,13 +35,13 @@
     <ClInclude Include="interface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="lexScanner.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="expEvaluator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Interpreter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lexScanner.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

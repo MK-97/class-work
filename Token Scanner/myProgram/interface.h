@@ -53,6 +53,8 @@ using namespace std;
 
 		void LEX_SCANNER();
 
+		void execute();
+
 
 		// This startInterface() function serves as the central place
 		//	to access all the services provided by the interpreter

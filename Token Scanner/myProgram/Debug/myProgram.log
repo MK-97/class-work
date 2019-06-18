@@ -1,107 +1,91 @@
-﻿Build started 12/15/2016 5:00:16 AM.
-     1>Project "C:\Users\Mark\Desktop\4A UNfinished\myProgram\myProgram.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Interpreter.cpp
-         Interpreter.cpp
-     1>c:\users\mark\desktop\4a unfinished\myprogram\interpreter.cpp(44): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-     1>c:\users\mark\desktop\4a unfinished\myprogram\interpreter.cpp(53): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\mark\desktop\4a unfinished\myprogram\interpreter.cpp(120): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\mark\desktop\4a unfinished\myprogram\interpreter.cpp(140): warning C4390: ';' : empty controlled statement found; is this the intent?
-     1>c:\users\mark\desktop\4a unfinished\myprogram\interpreter.cpp(189): warning C4101: 'trash' : unreferenced local variable
-     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\utility(157): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xmemory0(600) : see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int,void>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&)' being compiled
-                 with
-                 [
-                     _Kty=std::string
-         ,            _Ty=float
-                 ]
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xmemory0(600) : see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int,void>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&)' being compiled
-                 with
-                 [
-                     _Kty=std::string
-         ,            _Ty=float
-                 ]
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xmemory0(723) : see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,_Ty>(_Objty *,_Ty &&)' being compiled
-                 with
-                 [
-                     _Other=std::_Tree_node<std::pair<const std::string,float>,void *>
-         ,            _Objty=std::pair<const std::string,float>
-         ,            _Ty=std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>
-                 ]
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xmemory0(723) : see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,_Ty>(_Objty *,_Ty &&)' being compiled
-                 with
-                 [
-                     _Other=std::_Tree_node<std::pair<const std::string,float>,void *>
-         ,            _Objty=std::pair<const std::string,float>
-         ,            _Ty=std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>
-                 ]
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xmemory0(872) : see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>>(std::allocator<_Other> &,_Objty *,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&)' being compiled
-                 with
-                 [
-                     _Alloc=std::allocator<std::_Tree_node<std::pair<const std::string,float>,void *>>
-         ,            _Ty=std::pair<const std::string,float>
-         ,            _Other=std::_Tree_node<std::pair<const std::string,float>,void *>
-         ,            _Objty=std::pair<const std::string,float>
-                 ]
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xmemory0(872) : see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>>(std::allocator<_Other> &,_Objty *,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&)' being compiled
-                 with
-                 [
-                     _Alloc=std::allocator<std::_Tree_node<std::pair<const std::string,float>,void *>>
-         ,            _Ty=std::pair<const std::string,float>
-         ,            _Other=std::_Tree_node<std::pair<const std::string,float>,void *>
-         ,            _Objty=std::pair<const std::string,float>
-                 ]
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtree(933) : see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>>(_Ty *,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&)' being compiled
-                 with
-                 [
-                     _Other=std::_Tree_node<std::pair<const std::string,float>,void *>
-         ,            _Ty=std::pair<const std::string,float>
-                 ]
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtree(933) : see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>>(_Ty *,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&)' being compiled
-                 with
-                 [
-                     _Other=std::_Tree_node<std::pair<const std::string,float>,void *>
-         ,            _Ty=std::pair<const std::string,float>
-                 ]
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtree(1158) : see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_buy<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::_Buynode<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&)' being compiled
-                 with
-                 [
-                     _Kty=std::string
-         ,            _Ty=float
-                 ]
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtree(1158) : see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_buy<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::_Buynode<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&)' being compiled
-                 with
-                 [
-                     _Kty=std::string
-         ,            _Ty=float
-                 ]
-                 c:\users\mark\desktop\4a unfinished\myprogram\interpreter.cpp(183) : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>>(_Valty &&)' being compiled
-                 with
-                 [
-                     _Kty=std::string
-         ,            _Ty=float
-         ,            _Pr=std::less<std::string>
-         ,            _Alloc=std::allocator<std::pair<const std::string,float>>
-         ,            _Valty=std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>
-                 ]
-                 c:\users\mark\desktop\4a unfinished\myprogram\interpreter.cpp(183) : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>>(_Valty &&)' being compiled
-                 with
-                 [
-                     _Kty=std::string
-         ,            _Ty=float
-         ,            _Pr=std::less<std::string>
-         ,            _Alloc=std::allocator<std::pair<const std::string,float>>
-         ,            _Valty=std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>
-                 ]
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mark\Desktop\4A UNfinished\Debug\myProgram.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Mark\Desktop\4A UNfinished\Debug\myProgram.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mark\Desktop\4A UNfinished\Debug\myProgram.lib" /MACHINE:X86 Debug\expEvaluator.obj
-         Debug\interface.obj
-         Debug\Interpreter.obj
-         Debug\lexScanner.obj
-         Debug\main.obj
-         myProgram.vcxproj -> C:\Users\Mark\Desktop\4A UNfinished\Debug\myProgram.exe
-     1>Done Building Project "C:\Users\Mark\Desktop\4A UNfinished\myProgram\myProgram.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.83
+﻿  Interpreter.cpp
+c:\users\muush\desktop\4b-1\4b\myprogram\interpreter.cpp(56): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\muush\desktop\4b-1\4b\myprogram\interpreter.cpp(68): warning C4018: '<': signed/unsigned mismatch
+c:\users\muush\desktop\4b-1\4b\myprogram\interpreter.cpp(199): warning C4018: '<': signed/unsigned mismatch
+c:\users\muush\desktop\4b-1\4b\myprogram\interpreter.cpp(220): warning C4390: ';': empty controlled statement found; is this the intent?
+c:\users\muush\desktop\4b-1\4b\myprogram\interpreter.cpp(276): warning C4101: 'trash': unreferenced local variable
+c:\users\muush\desktop\4b-1\4b\myprogram\interpreter.cpp(300): warning C4018: '<': signed/unsigned mismatch
+c:\users\muush\desktop\4b-1\4b\myprogram\interpreter.cpp(317): warning C4018: '<': signed/unsigned mismatch
+c:\users\muush\desktop\4b-1\4b\myprogram\interpreter.cpp(349): warning C4018: '<': signed/unsigned mismatch
+c:\users\muush\desktop\4b-1\4b\myprogram\interpreter.cpp(388): warning C4018: '<': signed/unsigned mismatch
+c:\users\muush\desktop\4b-1\4b\myprogram\interpreter.cpp(365): warning C4101: 'endofWhile': unreferenced local variable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\utility(240): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xmemory0(881): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int,0>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&) noexcept' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Ty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xmemory0(881): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int,0>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&) noexcept' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Ty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xtree(984): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>>(_Alloc &,_Objty *const ,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const std::string,float>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,float>>>::void_pointer>>,
+              _Ty=std::pair<const std::string,float>,
+              _Objty=std::pair<const std::string,float>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xtree(983): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>>(_Alloc &,_Objty *const ,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const std::string,float>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,float>>>::void_pointer>>,
+              _Ty=std::pair<const std::string,float>,
+              _Objty=std::pair<const std::string,float>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xtree(1155): note: see reference to function template instantiation 'std::_Tree_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree_comp_alloc<_Traits>::_Buynode<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&)' being compiled
+          with
+          [
+              _Ty=std::pair<const std::string,float>,
+              _Alloc=std::allocator<std::pair<const std::string,float>>,
+              _Traits=std::_Tmap_traits<std::string,float,std::less<std::string>,std::allocator<std::pair<const std::string,float>>,false>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xtree(1155): note: see reference to function template instantiation 'std::_Tree_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree_comp_alloc<_Traits>::_Buynode<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&)' being compiled
+          with
+          [
+              _Ty=std::pair<const std::string,float>,
+              _Alloc=std::allocator<std::pair<const std::string,float>>,
+              _Traits=std::_Tmap_traits<std::string,float,std::less<std::string>,std::allocator<std::pair<const std::string,float>>,false>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\map(213): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,float,_Pr,_Alloc,false>>::emplace<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&)' being compiled
+          with
+          [
+              _Ty=std::pair<const std::string,float>,
+              _Kty=std::string,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,float>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\map(213): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,float,_Pr,_Alloc,false>>::emplace<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&)' being compiled
+          with
+          [
+              _Ty=std::pair<const std::string,float>,
+              _Kty=std::string,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,float>>
+          ]
+  c:\users\muush\desktop\4b-1\4b\myprogram\interpreter.cpp(270): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::map<std::string,float,std::less<_Kty>,std::allocator<_Ty>>::insert<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>,void>(_Valty &&)' being compiled
+          with
+          [
+              _Ty=std::pair<const std::string,float>,
+              _Kty=std::string,
+              _Valty=std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>
+          ]
+  c:\users\muush\desktop\4b-1\4b\myprogram\interpreter.cpp(270): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::map<std::string,float,std::less<_Kty>,std::allocator<_Ty>>::insert<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>,void>(_Valty &&)' being compiled
+          with
+          [
+              _Ty=std::pair<const std::string,float>,
+              _Kty=std::string,
+              _Valty=std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int>
+          ]
+  myProgram.vcxproj -> C:\Users\muush\Desktop\4b-1\4b\Debug\myProgram.exe

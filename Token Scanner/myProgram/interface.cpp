@@ -320,7 +320,10 @@ void Interface::endOfService(const string service)
 
 }
 
-
+void Interface::execute()
+{
+	;;
+}
 
 // This menu() function is the interface
 void Interface::startInterface() {
@@ -366,7 +369,6 @@ void Interface::startInterface() {
 
 		cout << "B. [LEX (LUTHOR) SCANNER] ACTIVE LEX_SCANNER" << endl;
 		cout << "F. POSTFIX INFIX FIXINGS" << endl;
-		cout << "N. i(N)terpreter" << endl;
 
 		cout << "****************************************************" <<endl<< endl;
 

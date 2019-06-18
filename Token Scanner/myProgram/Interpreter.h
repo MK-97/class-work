@@ -17,5 +17,9 @@ public:
 
 	void assignment(int y);
 	
+	bool if_Function(int &y, int &x, bool& a);
+
+	bool whileLoop(int &y, bool a);
+	
 };
 #endif
