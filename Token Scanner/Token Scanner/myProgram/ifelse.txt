@@ -1,0 +1,9 @@
+if(3>2)
+{
+display"3";
+}
+else
+{
+display"5";
+}
+display"7";
